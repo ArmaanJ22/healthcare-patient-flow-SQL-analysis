@@ -13,11 +13,13 @@ The project begins with data cleaning  before progressing into business analysis
 # Repository Structure
 
 ```text
-healthcare-patient-flow-sql-analysis/
+healthcare-patient-flow-SQL-analysis/
 │
 ├── README.md
 ├── healthcare_analysis.sql
-└── healthcare_analytics_patient_flow_data.csv
+└── data/
+    └── healthcare_analytics_patient_flow_data.csv
+    └── Source_URL.md
 ```
 
 ---
