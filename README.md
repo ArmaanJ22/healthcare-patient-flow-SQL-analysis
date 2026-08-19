@@ -88,7 +88,7 @@ The following business questions were explored using SQL to better understand ho
 
 ## 1. Which departments receive the most referrals?
 
-**Finding**
+**Findings**
 
 General Practice received the highest number of referrals (1,840), followed by Orthopedics (995). Renal received the fewest referrals (86).
 
@@ -96,7 +96,7 @@ General Practice received the highest number of referrals (1,840), followed by O
 
 ## 2. Which department has the highest admission rate?
 
-**Finding**
+**Findings**
 
 The Renal department recorded the highest admission rate at **53.49%**, however the average trend seemed to be a 50% admission percentage among departments
 
@@ -104,7 +104,7 @@ The Renal department recorded the highest admission rate at **53.49%**, however 
 
 ## 3. Which department has the longest average patient wait time?
 
-**Finding**
+**Findings**
 
 The longest average wait time in was the Neurology department with an average waiti time of **36.8 minutes**, while Renal had the shortest at **34.7 minutes**. Overall, wait times were relatively consistent across departments.
 
@@ -112,7 +112,7 @@ The longest average wait time in was the Neurology department with an average wa
 
 ## 4. Which department has the highest patient satisfaction?
 
-**Finding**
+**Findings**
 
 Gastroenterology achieved the highest average patient satisfaction score (**5.80**), while Renal recorded the lowest (**4.57**).
 
@@ -120,7 +120,7 @@ Gastroenterology achieved the highest average patient satisfaction score (**5.80
 
 ## 5. Is there a relationship between patient wait time and patient satisfaction?
 
-**Finding**
+**Findings**
 
 No clear relationship was observed between average patient wait time and patient satisfaction across departments.
 
@@ -128,7 +128,7 @@ No clear relationship was observed between average patient wait time and patient
 
 ## 6. Which age group accounts for the largest proportion of hospital visits?
 
-**Finding**
+**Findings**
 
 Results show no significant difference in the proportion of visits between the groups, with the highest proportion appeared to be age group 0-17 at 21.39% and the lowest being 65+ at 18.84%. 
 
@@ -136,7 +136,7 @@ Results show no significant difference in the proportion of visits between the g
 
 ## 7. How does patient satisfaction differ between male and female patients across hospital departments?
 
-**Finding**
+**Findings**
 
 Female patients reported higher average satisfaction scores than male patients in most departments. Neurology showed the largest gender difference, while Gastroenterology maintained consistently high satisfaction scores across both genders.
 
