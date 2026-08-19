@@ -37,7 +37,7 @@ COUNT(*) - COUNT("Patient Waittime") AS missing_waittime
 FROM patient_visits;
 
 --Finding:
---By analzing the number of missing rows from each column in the date set we can conclude that the only column
+--By analyzing the number of missing rows from each column in the date set we can conclude that the only column
 --with NULL values is patient satisfaction score this will be important to remember when using functions like AVG and SUM
 
 --=======================================
@@ -80,7 +80,7 @@ FROM patient_visits;
 
 --=======================================
 
---Q5. Are the categorical values consistant?
+--Q5. Are the categorical values consistent?
 
 SELECT DISTINCT "Patient Gender"
 FROM patient_visits;
