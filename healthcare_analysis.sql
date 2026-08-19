@@ -76,7 +76,7 @@ FROM patient_visits;
 --From the data we see no outliers or negative values indicating realistic values in the data set
 --Patient age is between 1 and 79
 --Patient satisfaction is between 0 and 9
---Patient waittime is between 10 and 60 minutes
+--Patient wait time is between 10 and 60 minutes
 
 --=======================================
 
@@ -156,7 +156,7 @@ ORDER BY admission_percentage DESC;
 
 =======================================
 
---Q3. Which department has the longest average patient waittime?
+--Q3. Which department has the longest average patient wait time?
 
 SELECT "Department Referral",
 COUNT(*) AS total_patients,
@@ -172,9 +172,9 @@ ORDER BY average_patient_waittime DESC;
 
 
 --Findings:
---The longest average waittime in was the Neurology department with an average waititime of 36.8 minutes
+--The longest average wait time in was the Neurology department with an average waititime of 36.8 minutes
 --The shortest was the Renal department at 34.7 minutes
---The spread between the departments was small with most departments hovering around 35 minutes suggesting fairly consistent waittimes across departments
+--The spread between the departments was small with most departments hovering around 35 minutes suggesting fairly consistent wait times across departments
 
 =======================================
 
@@ -206,8 +206,8 @@ GROUP BY "Department Referral"
 ORDER BY average_patient_waittime DESC;
 
 --Findings:
---After analysing average patient waittimes and average satisfaction scores there does not appear to be a clear trend present
---There is does not appear to be a clear relationship present between a higher waittime and a lower satisfaction score
+--After analysing average patient wait times and average satisfaction scores there does not appear to be a clear trend present
+--There is does not appear to be a clear relationship present between a higher wait time and a lower satisfaction score
 
 =======================================
 
