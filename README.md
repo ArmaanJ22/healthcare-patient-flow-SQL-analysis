@@ -62,6 +62,9 @@ The dataset contains **9,216 patient visit records** and includes the following 
 
 The project uses this dataset to perform data cleaning, exploratory analysis, and answer business-oriented healthcare questions using SQL.
 
+**Note:** 
+
+-This project focuses on SQL analysis and business insights. The dataset was obtained from Kaggle and was not created by the author of this repository.
 ---
 
 # Data Quality Assessment
